@@ -1,0 +1,32 @@
+body{
+  background-color: #333;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 100vh;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  gap: 5px;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.num{
+  width: 50px;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
