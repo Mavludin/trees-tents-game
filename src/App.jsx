@@ -16,7 +16,9 @@ function App() {
         <button onClick={handleClick}>1</button>
         <button onClick={handleClick}>2</button>
       </div>
-      <Board level={level} />
+      <div className="wrapper">
+        <Board level={level} />
+      </div>
     </div>
   );
 }

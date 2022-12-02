@@ -13,6 +13,7 @@ function Board({ level }) {
     gridTemplateColumns: `repeat(${SIZE}, 1fr)`,
     gridTemplateRows: `repeat(${SIZE}, 1fr)`,
   };
+  
   return (
     <div className="board" style={gridSize}>
       <RowNumbers SIZE={SIZE} level={level} />

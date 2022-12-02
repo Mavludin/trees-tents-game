@@ -1,3 +1,7 @@
+.App {
+  height: 100vh;
+}
+
 .board {
   position: relative;
   display: grid;
@@ -40,6 +44,7 @@
 .tree {
   position: relative;
   background-color: rgb(42, 194, 22);
+  cursor: default;
 }
 .tree::after {
   content: '';
